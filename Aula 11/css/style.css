@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #222222;
+  height: 100px;
+  width: 100%;
+}
+
+.container_pai {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+  gap: 10px;
+}
+
+.container_nav ul {
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  gap: 17px;
+  padding: 40px 28px 41px 0;
+}
+
+.container_nav ul li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #222222;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  flex-wrap: wrap;
+}
+
+.container_nav_footer ul {
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 19px 0 19px 20px;
+}
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container_nav_footer ul li {
+  list-style-type: none;
+  padding-bottom: 12px;
+}
+
+.container_logo_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  padding-right: 42px;
+}
+
+.container_delivery {
+  width: 490px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.card_desc {
+  font-family: "Roboto", sans-serif;
+  color: #fc200c;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  padding: 2px 0 0 75px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.img_delivery {
+  background-image: url(/img/delivery.jpg);
+  width: 490px;
+  height: 350px;
+  position: relative;
+}
+
+.container_cardapio {
+  display: flex;
+  width: 490px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.cardapio_desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fc200c;
+  position: absolute;
+  padding: 26px 0 0 160px;
+}
+
+.title_list {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #222222;
+  font-weight: bold;
+  position: absolute;
+  padding: 112px 0 0 69px;
+}
+
+.img_cardapio {
+  background-image: url(/img/PizzaFalling.jpg);
+  height: 129px;
+  width: 92px;
+  position: relative;
+  top: 132px;
+  left: 325px;
+  background-repeat: no-repeat;
+}
+
+.list ol {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  padding: 155px 0 0 51px;
+}
+
+.list li {
+  padding-bottom: 12px;
+}
+
+.container_main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px;
+  gap: 20px;
+}
