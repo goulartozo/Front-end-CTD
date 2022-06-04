@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+header {
+  background-color: #52182b;
+}
+
+.container_list ul {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 18px;
+}
+
+.container_list ul li {
+  list-style-type: none;
+  padding: 27px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 36px;
+  margin: 27px;
+}
+
+.container_logo {
+  padding: 12px;
+}
+
+.container_pai {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container_frase_banner {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  padding-right: 80%;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+.container_back_banner {
+  height: 432px;
+  background-image: url(/img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
