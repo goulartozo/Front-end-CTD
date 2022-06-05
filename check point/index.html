@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
+    
+    <title>Rio Grande do Sul</title>
   </head>
   <body>
     <header>
@@ -16,9 +17,9 @@
         <div class="container_nav">
           <div class="container_list">
             <ul>
-              <li>Home</li>
-              <li>Curiosidades</li>
-              <li>Vídeo</li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#curiosidades">Curiosidades</a></li>
+              <li><a href="#video">Vídeo</a></li>
             </ul>
           </div>
         </div>
@@ -33,6 +34,48 @@
         </div>
         <div class="container_back_banner"></div> 
       </div>
+      <section id="curiosidades">
+        <h2 class="curious">Curiosidades Gaúchescas</h2>
+        <div class="container_curiosidades">
+          
+          <div class="container_culinaria">
+            <span class="container_culi">Culinária</span>
+            <img src="/img/card1.png" alt="culinaria">
+          </div>
+          <div class="container_serra">
+            <span class="container_ser">Serra</span>
+            <img src="/img/card2.png" alt="">  
+          </div>
+           <div class="container_cultura">
+            <span class="container_cult">Cultura</span>
+            <img src="/img/card3.png" alt="">  
+          </div>
+        </div>
+      </section>
+      <section id="video">
+        <div class="container_video">
+          <h2 class="video_title">Oktoberfest em Santa Cruz do Sul - RS</h2>
+          <figure>
+            <div class="box_video">
+              <iframe src="https://www.youtube.com/embed/Bl3Sh5lFO9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </figure>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="container_footer">
+        <div class="container_linkedin" >
+          <a href="https://www.linkedin.com/in/douglas-goularte-b0a838227/" target="_blank" rel="external">
+          <img class="container_img_linkedin" src="/img/linkedin.png"  alt="Linkedin">
+          </a>
+        </div>
+         <div class="container_git" >
+          <a href="https://github.com/goulartozo" target="_blank" rel="external">
+          <img class="container_img_git" src="/img/git.png" alt="github">
+          </a>
+        </div> 
+      </div>
+    </footer>
   </body>
 </html>
