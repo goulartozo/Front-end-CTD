@@ -38,6 +38,8 @@ p {
   font-family: "Karla", sans-serif;
   font-size: 20px;
   padding: 16px 520px 0 27px;
+  border-style: none;
+  border-radius: ;
 }
 
 input {
