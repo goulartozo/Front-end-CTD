@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
 body {
   background-color: rgb(201, 167, 15);
@@ -82,7 +82,7 @@ nav li {
 
 .container_culi {
   position: absolute;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 4em;
   color: #ffffff;
   font-weight: bold;
@@ -91,7 +91,7 @@ nav li {
 
 .container_ser {
   position: absolute;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 4em;
   color: #ffffff;
   font-weight: bold;
@@ -100,7 +100,7 @@ nav li {
 
 .container_cult {
   position: absolute;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 4em;
   color: #ffffff;
   font-weight: bold;
