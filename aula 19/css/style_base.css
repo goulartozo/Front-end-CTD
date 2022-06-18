@@ -78,7 +78,8 @@ nav ul li a:hover::before {
   background: var(--primary-color);
   padding: 10px 15px;
   text-decoration: none;
-  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+
   /* transition: ; */
 }
 
@@ -99,6 +100,9 @@ nav ul li a:hover::before {
 }
 
 .social ul li a:hover {
+  width: 20px;
+  padding: 10px 50px 10px 30px;
+  background-color: #000;
   /* transform: ; */
 }
 
@@ -140,9 +144,25 @@ nav ul li a:hover::before {
   border-right: 10px solid rgb(66, 139, 202);
   border-bottom: 10px solid rgb(202, 66, 129);
   border-left: 10px solid rgba(66, 139, 202, 0.2);
+  animation-name: rodar;
+  animation-duration: 0.9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
   /* animation: ; */
 }
 
 /* keyframes    
     crie a animação com a rotação do tempo 0 ao tempo 100
  */
+
+@keyframes rodar {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1turn);
+    /* turn indica quantas voltas */
+  }
+}
