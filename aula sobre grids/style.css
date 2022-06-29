@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap");
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+*/
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav section"
+    "nav section";
+}
+
+header {
+  grid-area: header;
+  background-color: aqua;
+}
+
+.list_nav {
+  grid-area: nav;
+  background-color: blue;
+}
+
+section {
+  grid-area: section;
+  background-color: aquamarine;
+}
